@@ -1,0 +1,58 @@
+{
+    "editor.fontSize": 12,
+    "editor.formatOnPaste": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "workbench.colorTheme": "Visual Studio 2019 Dark",
+    "terminal.integrated.inheritEnv": false,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.requirements.JDK11Warning": false,
+    "java.semanticHighlighting.enabled": true,
+    "java.refactor.renameFromFileExplorer": "autoApply",
+    "workbench.iconTheme": "vscode-icons",
+    "jupyter.sendSelectionToInteractiveWindow": true,
+    "java.project.importOnFirstTimeStartup": "automatic",
+    "remote.SSH.remotePlatform": {
+        "95.216.171.129": "linux"
+    },
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "python.languageServer": "Microsoft",
+    "redhat.telemetry.enabled": true,
+    "java.imports.gradle.wrapper.checksums": [
+    
+    ],
+    "java.completion.favoriteStaticMembers": [
+        
+
+        "org.junit.Assert.*",
+        "org.junit.Assume.*",
+        "org.junit.jupiter.api.Assertions.*",
+        "org.junit.jupiter.api.Assumptions.*",
+        "org.junit.jupiter.api.DynamicContainer.*",
+        "org.junit.jupiter.api.DynamicTest.*",
+        "org.mockito.Mockito.*",
+        "org.mockito.ArgumentMatchers.*",
+        "org.mockito.Answers.*"
+    ],
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "tabnine.experimentalAutoImports": true,
+    "workbench.sideBar.location": "right",
+    "mssql.connections": [
+        {
+            "server": "{{put-server-name-here}}",
+            "database": "{{put-database-name-here}}",
+            "user": "{{put-username-here}}",
+            "password": "{{put-password-here}}"
+        }
+    ],
+    "files.watcherExclude": {
+        "**/.bloop": true,
+        "**/.metals": true,
+        "**/.ammonite": true
+    },
+    "vsicons.dontShowNewVersionMessage": true
+}
